@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AddgameComponent } from './addgame/addgame.component';
+import { ViewgameComponent } from './viewgame/viewgame.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AddgameComponent
+    AddgameComponent,
+    ViewgameComponent
   ],
   imports: [
     BrowserModule,
